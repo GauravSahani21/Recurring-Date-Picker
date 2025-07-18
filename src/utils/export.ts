@@ -12,7 +12,7 @@ export function exportRecurringDates(state: RecurrenceState, format: ExportForma
       exportAsCSV(dates, state)
       break
     case "ical":
-      exportAsICal(dates, state)
+      exportAsICal(dates)
       break
   }
 }
